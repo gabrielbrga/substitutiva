@@ -1,0 +1,10 @@
+
+POST http://localhost:5179/aluno/cadastrar
+Content-Type: application/json
+
+{
+    "nome": "fabio",
+    "sobrenome": "junior",
+    "altura": 1.90,
+    "peso":101.0
+}
